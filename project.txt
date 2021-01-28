@@ -1,0 +1,65 @@
+Proshop is the MERN e Commerce project.
+
+features of Proshop
+    Full featured shopping cart
+    Product reviews and ratings
+    Top products carousel
+    Product pagination
+    Product search feature
+    User profile with orders
+    Admin product management
+    Admin user management
+    Admin Order details page
+    Mark orders as delivered option
+    Checkout process (shipping, payment method, etc)
+    PayPal / credit card integration
+    Database seeder (products & users)
+
+Frontend of this project was done using
+ react,reactbootstrap for UI,
+ icons using fontawesome
+
+Proshop contains header which contains the 
+navbar which was constructed by reactbootstrap and the main or homescreen
+section used cards from reactbootstrap and footer.
+
+A router allows your application to navigate between different components,
+changing the browser URL, modifying the browser history, and keeping the 
+UI state in sync.
+React is a popular library for building SPAs. However, as React focuses
+only on building user interfaces, it doesn’t have a built-in solution for
+routing.React Router is the most popular routing library for React. 
+It allows you define routes in the same declarative style:
+
+# Frontend or client side
+    using react library
+    in App.js
+        header which is the navbar contains different links like login,
+        cart functionalities.
+        then the body which routes between the components homescreen
+        and productscreen
+        homescreen contains all the products and the details and we 
+        gonna make http request using axios
+        we use reactbootstrap components,fontawesome for icons and 
+        reactrouterdom for routing to make our work easy.
+        and footer which contains the copyright information.
+#backend or for server side
+    using nodejs for writing js on server side and has rich library of 
+    various javasctipt modules which simplifies the development of web 
+    applications and using express framework is used which gives a set
+    of features to develop web applications liking set up middlewares,
+    routing and allows to dynamically render html pages with the help 
+    of template engines.
+
+    dotenv module that  that loads environment variables from a .env file
+    into process.env which returns an object with the loaded content used 
+    for storing sensitive information .
+
+    we use mongodb a nosql and a schema less database which stores data
+    in json-like documents for storing the details or our products,users
+    ,orders etc. we use mongoose which is an Object Data Modeling (ODM)
+    library for MongoDB and Node.js. It manages relationships between
+    data, provides schema validation, and is used to translate between 
+    objects in code and the representation of those objects in MongoDB.
+    for passwords encryption we use bcryptjs.
+    
