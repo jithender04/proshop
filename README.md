@@ -2,7 +2,13 @@
 
 > eCommerce platform built with the MERN stack & Redux.
 
-<img align="left" alt="Jithender rao | LinkedIn"  src="./proshopimg.png" />
+> Deployed on heroku.
+
+> https://proshop-by-jupally.herokuapp.com/
+
+<img align="left" alt="proshop"  src="./proshopimg.png"  />
+
+
 
 
 ## Features
