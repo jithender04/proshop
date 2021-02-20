@@ -6,11 +6,6 @@
 
 > https://proshop-by-jupally.herokuapp.com/
 
-<img align="left" alt="proshop"  src="./proshopimg.png"  />
-
-
-
-
 ## Features
 
 - Full featured shopping cart
